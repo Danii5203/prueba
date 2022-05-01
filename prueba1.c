@@ -2,8 +2,12 @@
 
 int sumar(int, int);
 int restar(int, int);
+<<<<<<< HEAD
 int producto(int, int);
 void elevacion(int, int);
+=======
+void elevacion(int , int);
+>>>>>>> elevacion
 void mostrar(int);
 
 int main(){
