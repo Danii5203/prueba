@@ -3,7 +3,9 @@
 int sumar(int, int);
 int restar(int, int);
 int producto(int, int);
+void elevacion(int , int);
 void mostrar(int);
+
 int main(){
 
     int a, b;
@@ -23,7 +25,12 @@ int main(){
     int prod = producto(a, b);
     mostrar(prod);
 
+    elevacion(a, b);
+
     return 0;
+}
+void elevacion(int a, int b){
+    printf("xd");
 }
 
 int sumar(int x, int y){
