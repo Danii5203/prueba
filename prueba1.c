@@ -2,7 +2,6 @@
 
 int sumar(int, int);
 int restar(int, int);
-int producto(int, int);
 void elevacion(int , int);
 void mostrar(int);
 
@@ -39,10 +38,6 @@ int sumar(int x, int y){
 
 int restar(int x, int y){
     return x-y;
-}
-
-int producto(int x, int y){
-    return x*y;
 }
 
 void mostrar(int resultado){
