@@ -8,6 +8,7 @@ void elevacion(int , int);
 void mostrar(int);
 void prueba();
 
+
 int main(){
 
     int a, b;
