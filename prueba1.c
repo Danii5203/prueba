@@ -1,12 +1,19 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int sumar(int, int);
 int restar(int, int);
 int cociente(int, int);
 void mostrar(int);
+void mensaje(char *);
+
 int main(){
 
     int a, b;
+    char *nombre = (char *) malloc(sizeof(char) * 50);
+    printf("Ingrese su nombre: ");
+    gets(nombre);
+    mensaje(nombre);
 
     printf("Ingrese 'a': ");
     scanf("%d", &a);
@@ -39,4 +46,8 @@ int cociente(int x, int y){
 
 void mostrar(int resultado){
     printf("\nEl valor es %d\n", resultado);
+}
+
+void mensaje(char *nombre){
+    printf("Hola %s!!\n", *nombre);
 }
