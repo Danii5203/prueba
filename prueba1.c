@@ -6,6 +6,7 @@ int producto(int, int);
 void elevacion(int, int);
 void elevacion(int , int);
 void mostrar(int);
+void prueba();
 
 int main(){
 
@@ -26,6 +27,8 @@ int main(){
 
     elevacion(a, b);
 
+    prueba();
+
     return 0;
 }
 void elevacion(int a, int b){
@@ -42,4 +45,8 @@ int restar(int x, int y){
 
 void mostrar(int resultado){
     printf("\nEl valor es %d\n", resultado);
+}
+
+void prueba(){
+    printf("kamsdaksmdas");
 }
